@@ -1,0 +1,26 @@
+body, html{
+    width: 100%;
+    height: 100%;
+}
+.center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link{
+    margin-bottom: 20px;
+    transition: transform .5s;
+}
+.nav-link:last-child{
+    margin-bottom: 0;
+}
+.nav-link:hover{
+    transform: scale(1.2);
+}
+
+.nav-link:active{
+    transform: translateY(-5px);
+}
