@@ -367,7 +367,12 @@
   height: 37px;
   margin: 341px auto 0;
 }
-
+.logo:hover{
+  transform: scale(1.1);
+}
+.logo:active{
+  transform: scale(1.1) translateY(3px);
+}
 .offer-text{
   font-family: 'FuturaStd', Arial, Helvetica, sans-serif;
   font-size: 50.2px;
@@ -440,6 +445,7 @@
   color: #ffffff;
   position: relative;
   margin: 28px auto 0;
+  outline: #f767b5;
 }
 .form-submit-btn::after{
   width: 706px;
@@ -453,6 +459,9 @@
 }
 .form-submit-btn:hover::after{
   border-width: 2px 4px 4px 2px;
+}
+.form-submit-btn:active::after{
+  border-width: 1px 2px 2px 1px;
 }
 .reset-form{
   display: block;
